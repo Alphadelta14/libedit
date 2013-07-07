@@ -2,6 +2,7 @@ libedit (3.1-20130611-1) UNRELEASED; urgency=low
 
   * New upstream release (20130611-3.1)
     - Thanks to their switch to the autotools, we can use a simple dh helper
+    (Closes: #579729)
   * Move package maintenance as a collab-maint git project
   * Add of the Vcs tags
   * Update of the homepage (Closes: #715017)
