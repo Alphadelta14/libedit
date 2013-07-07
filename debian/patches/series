@@ -2,3 +2,4 @@
 # check 20-fortify.patch
 fix_gcc_warnings.diff
 #30-change-tty-handling.patch
+update-soname.diff

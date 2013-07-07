@@ -3,4 +3,5 @@
 # The current autoconf. That makes our life way easier
 
 %:
-	dh $@
+	dh $@ --with autoreconf
+
