@@ -6,6 +6,7 @@ libedit (3.1-20130611-1) UNRELEASED; urgency=low
   * Add of the Vcs tags
   * Update of the homepage (Closes: #715017)
   * Add watch file (Closes: #715018)
+  * Add a symbol file for libedit
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Jul 2013 12:49:25 +0200
 
