@@ -1,3 +1,11 @@
+libedit (2.11-20080614-7) unstable; urgency=low
+
+  * Move package maintenance as a collab-maint git project
+  * Add of the Vcs tags
+  * Update of the homepage (Closes: #715017)
+
+ --
+
 libedit (2.11-20080614-6) unstable; urgency=low
 
   * Merge 2.11-20080614-5ubuntu1
