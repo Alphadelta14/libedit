@@ -34,3 +34,16 @@ Description: BSD editline and history libraries (development files)
  history functions.
  .
  It slightly resembles GNU readline
+
+
+Package: libedit2-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, libedit2 (= ${binary:Version})
+Description: BSD editline and history libraries (debug package)
+ The editline library provides generic line editing and
+ history functions.
+ .
+ It slightly resembles GNU readline
