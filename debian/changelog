@@ -10,6 +10,7 @@ libedit (3.1-20130611-1) UNRELEASED; urgency=low
   * Add a symbol file for libedit
   * Add myself among the uploaders
   * Use upstream libedit.pc
+  * Update of the description
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Jul 2013 12:49:25 +0200
 
