@@ -7,7 +7,10 @@ libedit (3.1-20130611-1) UNRELEASED; urgency=low
   * Add of the Vcs tags
   * Update of the homepage (Closes: #715017)
   * Add watch file (Closes: #715018)
-  * Add a symbol file for libedit
+  * Add a symbol file for libedit:
+    1) Created a symbol file from the 2.11-20080614-6 release
+    2) Update of the symbol file from this release
+    3) Remove the -X version
   * Add myself among the uploaders
   * Use upstream libedit.pc
   * Update of the description
