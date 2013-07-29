@@ -924,7 +924,7 @@ __weakref_visible char *my_get_alias_text(const char *)
 #endif
 protected el_action_t
 /*ARGSUSED*/
-vi_alias(EditLine *el, Int c __attribute__((__unused__)))
+vi_alias(EditLine *el __attribute__((__unused__)), Int c __attribute__((__unused__)))
 {
 #ifdef __weak_reference
 	char alias_name[3];
