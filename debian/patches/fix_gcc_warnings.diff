@@ -1,0 +1,43 @@
+Description: fix warnings about deprecated headers
+Author: Steve Langasek <steve.langasek@canonical.com>
+Bug-Debian: http://bugs.debian.org/634324
+
+Index: libedit.git/src/readline.c
+===================================================================
+--- libedit.git.orig/src/readline.c	2013-07-07 12:52:19.000000000 +0200
++++ libedit.git/src/readline.c	2013-07-07 12:58:16.501284020 +0200
+@@ -47,7 +47,7 @@
+ #include <errno.h>
+ #include <fcntl.h>
+ #include <setjmp.h>
+-#include <vis.h>
++#include <bsd/vis.h>
+ 
+ #include "editline/readline.h"
+ #include "el.h"
+Index: libedit.git/src/filecomplete.c
+===================================================================
+--- libedit.git.orig/src/filecomplete.c	2013-07-07 12:52:19.000000000 +0200
++++ libedit.git/src/filecomplete.c	2013-07-07 12:58:34.625283913 +0200
+@@ -47,7 +47,7 @@
+ #include <limits.h>
+ #include <errno.h>
+ #include <fcntl.h>
+-#include <vis.h>
++#include <bsd/vis.h>
+ 
+ #include "el.h"
+ #include "fcns.h"		/* for EL_NUM_FCNS */
+Index: libedit.git/src/history.c
+===================================================================
+--- libedit.git.orig/src/history.c	2013-07-07 12:52:19.000000000 +0200
++++ libedit.git/src/history.c	2013-07-07 12:58:31.485283932 +0200
+@@ -50,7 +50,7 @@
+ #include <string.h>
+ #include <stdlib.h>
+ #include <stdarg.h>
+-#include <vis.h>
++#include <bsd/vis.h>
+ #include <sys/stat.h>
+ 
+ static const char hist_cookie[] = "_HiStOrY_V2_\n";
