@@ -1,4 +1,4 @@
-libedit (3.1-20130611-1) UNRELEASED; urgency=low
+libedit (3.1-20130611-1~exp1) experimental; urgency=low
 
   * New upstream release (20130611-3.1)
     - Thanks to their switch to the autotools, we can use a simple dh helper
@@ -11,7 +11,8 @@ libedit (3.1-20130611-1) UNRELEASED; urgency=low
     1) Created a symbol file from the 2.11-20080614-6 release
     2) Update of the symbol file from this release
     3) Remove the -X version
-  * Add myself among the uploaders
+  * Add myself among the uploaders and change the maintainer to the
+    pkg-llvm team
   * Use upstream libedit.pc
   * Update of the description
 
