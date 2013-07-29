@@ -47,7 +47,7 @@ __RCSID("$NetBSD: readline.c,v 1.108 2013/05/28 00:10:34 christos Exp $");
 #include <errno.h>
 #include <fcntl.h>
 #include <setjmp.h>
-#include <bsd/vis.h>
+#include <vis.h>
 
 #include "editline/readline.h"
 #include "el.h"
