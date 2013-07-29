@@ -47,7 +47,7 @@ __RCSID("$NetBSD: filecomplete.c,v 1.31 2011/09/16 16:13:16 plunky Exp $");
 #include <limits.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <vis.h>
+#include <bsd/vis.h>
 
 #include "el.h"
 #include "fcns.h"		/* for EL_NUM_FCNS */

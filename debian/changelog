@@ -1,4 +1,4 @@
-libedit (3.1-20130611-1~exp1) experimental; urgency=low
+libedit (3.1-20130712-1~exp1) experimental; urgency=low
 
   * New upstream release (20130611-3.1)
     - Thanks to their switch to the autotools, we can use a simple dh helper
