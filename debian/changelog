@@ -4,6 +4,7 @@ libedit (3.1-20130712-1~exp1) experimental; urgency=low
     - Thanks to their switch to the autotools, we can use a simple dh helper
     (Closes: #579729)
   * Move package maintenance as a collab-maint git project
+  * Install manpages (including editrc). (Closes: #612826)
   * Add of the Vcs tags
   * Update of the homepage (Closes: #715017)
   * Add watch file (Closes: #715018)
