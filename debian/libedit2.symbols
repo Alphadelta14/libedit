@@ -77,6 +77,7 @@ libedit.so.2 libedit2 #MINVER#
  ed_tty_stop_output@Base 3.1-20130611
  ed_unassigned@Base 3.1-20130611
  el_beep@Base 2.11-20080614
+ el_cursor@Base 3.1-20130712
  el_deletestr@Base 2.11-20080614
  el_editmode@Base 3.1-20130611
  el_end@Base 2.11-20080614
@@ -166,9 +167,6 @@ libedit.so.2 libedit2 #MINVER#
  keymacro_map_str@Base 3.1-20130611
  keymacro_print@Base 3.1-20130611
  keymacro_reset@Base 3.1-20130611
- libedit_fgetln@Base 3.1-20130611
- libedit_strlcat@Base 3.1-20130611
- libedit_strlcpy@Base 3.1-20130611
  map_addfunc@Base 3.1-20130611
  map_bind@Base 3.1-20130611
  map_end@Base 3.1-20130611
@@ -179,7 +177,6 @@ libedit.so.2 libedit2 #MINVER#
  map_set_editor@Base 3.1-20130611
  max_input_history@Base 2.11-20080614
  next_history@Base 2.11-20080614
- nvis@Base 3.1-20130611
  parse__escape@Base 3.1-20130611
  parse__string@Base 3.1-20130611
  parse_cmd@Base 3.1-20130611
@@ -285,23 +282,7 @@ libedit.so.2 libedit2 #MINVER#
  sig_end@Base 3.1-20130611
  sig_init@Base 3.1-20130611
  sig_set@Base 3.1-20130611
- snvis@Base 3.1-20130611
  stifle_history@Base 2.11-20080614
- strenvisx@Base 3.1-20130611
- strnunvis@Base 3.1-20130611
- strnunvisx@Base 3.1-20130611
- strnvis@Base 3.1-20130611
- strnvisx@Base 3.1-20130611
- strsenvisx@Base 3.1-20130611
- strsnvis@Base 3.1-20130611
- strsnvisx@Base 3.1-20130611
- strsvis@Base 3.1-20130611
- strsvisx@Base 3.1-20130611
- strunvis@Base 3.1-20130611
- strunvisx@Base 3.1-20130611
- strvis@Base 3.1-20130611
- strvisx@Base 3.1-20130611
- svis@Base 3.1-20130611
  terminal__flush@Base 3.1-20130611
  terminal__putc@Base 3.1-20130611
  terminal_beep@Base 3.1-20130611
@@ -342,7 +323,6 @@ libedit.so.2 libedit2 #MINVER#
  tty_rawmode@Base 3.1-20130611
  tty_stty@Base 3.1-20130611
  unstifle_history@Base 2.11-20080614
- unvis@Base 3.1-20130611
  username_completion_function@Base 2.11-20080614
  using_history@Base 2.11-20080614
  vi_add@Base 3.1-20130611
@@ -392,7 +372,5 @@ libedit.so.2 libedit2 #MINVER#
  vi_yank@Base 3.1-20130611
  vi_yank_end@Base 3.1-20130611
  vi_zero@Base 3.1-20130611
- vis@Base 3.1-20130611
- wcsdup@Base 3.1-20130611
  where_history@Base 2.11-20080614
  write_history@Base 2.11-20080614

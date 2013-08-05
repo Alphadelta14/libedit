@@ -1,3 +1,12 @@
+libedit (3.1-20130712-1~exp2) experimental; urgency=low
+
+  * Use system functions instead of embeded's (Closes: #718721)
+  * Remove deprecated fix_gcc_warnings.diff
+  * Remove useless 01-Makefile.diff
+  * Thanks to Guillem Jover for these 3 fixes
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 05 Aug 2013 10:15:59 +0200
+
 libedit (3.1-20130712-1~exp1) experimental; urgency=low
 
   * New upstream release (20130611-3.1)
