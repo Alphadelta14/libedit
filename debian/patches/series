@@ -3,3 +3,4 @@
 #30-change-tty-handling.patch
 update-soname.diff
 libbsd.patch
+PATH_MAX.diff
