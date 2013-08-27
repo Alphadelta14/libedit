@@ -4,3 +4,5 @@
 update-soname.diff
 libbsd.patch
 PATH_MAX.diff
+conflictmanpages.diff
+
