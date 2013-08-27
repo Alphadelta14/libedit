@@ -1,5 +1,5 @@
 
-EL_MANS = editline.3 editrc.5
+EL_MANS = editline.3edit editrc.5
 
 man_MANS = $(EL_MANS)
 
@@ -12,20 +12,20 @@ EL_MAN_LINKS = el_init.3 el_end.3 el_reset.3 el_gets.3 el_getc.3 \
 install-data-hook: $(EL_MAN_LINKS)
 
 $(EL_MAN_LINKS):
-	(cd $(DESTDIR)$(man3dir) && rm -f $@ && $(LN_S) editline.3 $@)
+	(cd $(DESTDIR)$(man3dir) && rm -f $@ && $(LN_S) editline.3edit $@)
 
 $(EL_MANS):
 	@if test "$(MANTYPE)" = "mdoc"; then\
 	   cp $(srcdir)/$@.roff $@;\
         else\
 	   $(AWK) -f $(srcdir)/mdoc2man.awk $(srcdir)/$@.roff > $@ || rm -f $@;\
-	fi; 
+	fi;
 
-uninstall-local: 
+uninstall-local:
 	(cd $(DESTDIR)$(man3dir) && rm -f $(EL_MAN_LINKS))
 
 CLEANFILES = $(EL_MANS)
-EXTRA_DIST = editline.3.roff editrc.5.roff mdoc2man.awk
+EXTRA_DIST = editline.3edit.roff editrc.5.roff mdoc2man.awk
 
 changelog.txt: ../ChangeLog
 	@sed 's/@/ (at)/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g;' $(srcdir)/$< > $@;
