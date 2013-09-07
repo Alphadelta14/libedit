@@ -1,3 +1,9 @@
+libedit (3.1-20130712-3) unstable; urgency=low
+
+  * Fix the description (Closes: #722083)
+
+ --
+
 libedit (3.1-20130712-2) unstable; urgency=low
 
   * Fix the co installation problem with libeditline-dev (Closes: #720636)

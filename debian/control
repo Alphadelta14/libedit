@@ -21,7 +21,7 @@ Description: BSD editline and history libraries
  Command line editor library provides generic line editing,
  history, and tokenization functions.
  .
- It slightly resembles GNU readline
+ It slightly resembles GNU readline.
 
 Package: libedit-dev
 Section: libdevel
@@ -34,7 +34,7 @@ Description: BSD editline and history libraries (development files)
  Command line editor library provides generic line editing,
  history, and tokenization functions.
  .
- It slightly resembles GNU readline
+ It slightly resembles GNU readline.
 
 
 Package: libedit2-dbg
@@ -47,4 +47,4 @@ Description: BSD editline and history libraries (debug package)
  Command line editor library provides generic line editing,
  history, and tokenization functions.
  .
- It slightly resembles GNU readline
+ It slightly resembles GNU readline.
