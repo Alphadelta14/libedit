@@ -1,8 +1,11 @@
 libedit (3.1-20130712-3) unstable; urgency=low
 
+  * Add option --enable-widec to get UTF-8 support (Closes: #737786)
+    (LP: #816758, #1276836)
   * Fix the description (Closes: #722083)
+  * Standards-Version updated to 3.9.4
 
- --
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fid, 07 Feb 2014 15:55:26 +0200
 
 libedit (3.1-20130712-2) unstable; urgency=low
 
