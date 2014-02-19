@@ -1,0 +1,13 @@
+Index: libedit/configure.ac
+===================================================================
+--- libedit.orig/configure.ac	2013-07-29 16:46:43.788725702 +0200
++++ libedit/configure.ac	2013-07-29 16:47:11.812724991 +0200
+@@ -35,7 +35,7 @@
+ AC_PROG_LIBTOOL
+ 
+ # libtool -version-info
+-AC_SUBST(LT_VERSION, [0:47:0])
++AC_SUBST(LT_VERSION, [2:47:0])
+ 
+ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
+ 
