@@ -1,8 +1,8 @@
-diff --git a/configure.ac b/configure.ac
-index 5e33526..45f4358 100644
---- a/configure.ac
-+++ b/configure.ac
-@@ -61,6 +61,12 @@ AC_CHECK_LIB(tinfo, tgetent,,
+Index: libedit/configure.ac
+===================================================================
+--- libedit.orig/configure.ac	2014-02-19 12:56:48.509023194 +0100
++++ libedit/configure.ac	2014-02-19 12:56:48.505023194 +0100
+@@ -61,6 +61,12 @@
    )]
  )
  
@@ -15,7 +15,7 @@ index 5e33526..45f4358 100644
  
  ### use option --enable-widec to turn on use of wide-character support
  EL_ENABLE_WIDEC
-@@ -108,24 +114,32 @@ AC_PROG_GCC_TRADITIONAL
+@@ -117,24 +123,32 @@
  #AC_FUNC_REALLOC
  AC_TYPE_SIGNAL
  AC_FUNC_STAT
@@ -53,11 +53,11 @@ index 5e33526..45f4358 100644
  
  EL_GETPW_R_POSIX
  EL_GETPW_R_DRAFT
-diff --git a/libedit.pc.in b/libedit.pc.in
-index deaaa39..1fe9cb9 100644
---- a/libedit.pc.in
-+++ b/libedit.pc.in
-@@ -6,7 +6,8 @@ includedir=@includedir@
+Index: libedit/libedit.pc.in
+===================================================================
+--- libedit.orig/libedit.pc.in	2014-02-19 12:56:48.509023194 +0100
++++ libedit/libedit.pc.in	2014-02-19 12:56:48.505023194 +0100
+@@ -6,7 +6,8 @@
  Name: libedit
  Description: command line editor library provides generic line editing, history, and tokenization functions.
  Version: @VERSION@
@@ -68,11 +68,11 @@ index deaaa39..1fe9cb9 100644
 +Libs.private: @LIBS@
  Cflags: -I${includedir} -I${includedir}/editline
  
-diff --git a/src/Makefile.am b/src/Makefile.am
-index da68023..402ba74 100644
---- a/src/Makefile.am
-+++ b/src/Makefile.am
-@@ -39,12 +39,15 @@ CLEANFILES = $(BUILT_SOURCES)
+Index: libedit/src/Makefile.am
+===================================================================
+--- libedit.orig/src/Makefile.am	2014-02-19 12:56:48.509023194 +0100
++++ libedit/src/Makefile.am	2014-02-19 12:56:48.505023194 +0100
+@@ -39,12 +39,15 @@
  lib_LTLIBRARIES    = libedit.la
  libedit_la_SOURCES = chared.c common.c el.c emacs.c hist.c keymacro.c map.c chartype.c parse.c \
  							prompt.c read.c refresh.c search.c sig.c terminal.c tty.c vi.c \
@@ -89,7 +89,7 @@ index da68023..402ba74 100644
  if !HAVE_STRLCPY
  libedit_la_SOURCES += strlcpy.c
  endif
-@@ -59,6 +62,9 @@ libedit_la_SOURCES += unvis.c
+@@ -59,6 +62,9 @@
  endif
  if WIDECHAR
  libedit_la_SOURCES += eln.c

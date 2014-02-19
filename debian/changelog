@@ -1,3 +1,9 @@
+libedit (3.1-20140213-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 19 Feb 2014 12:55:46 +0100
+
 libedit (3.1-20130712-3~exp1) experimental; urgency=low
 
   * Add option --enable-widec to get UTF-8 support (Closes: #737786)
