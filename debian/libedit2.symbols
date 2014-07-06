@@ -18,6 +18,7 @@ libedit.so.2 libedit2 #MINVER#
  ce__isword@Base 3.1-20130611
  ce_inc_search@Base 3.1-20130611
  ce_search_line@Base 3.1-20130611
+ ch_aliasfun@Base 3.1-20140620
  ch_end@Base 3.1-20130611
  ch_enlargebufs@Base 3.1-20130611
  ch_init@Base 3.1-20130611

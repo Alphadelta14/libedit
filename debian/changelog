@@ -1,3 +1,9 @@
+libedit (3.1-20140620-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 06 Jul 2014 19:03:56 +0200
+
 libedit (3.1-20140213-1) unstable; urgency=medium
 
   * Upload to unstable
