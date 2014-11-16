@@ -11,46 +11,10 @@ Subject: [PATCH] rename to avoid conflict
  delete mode 100644 doc/editline.3.roff
  create mode 100644 doc/editline.3edit.roff
 
-Index: libedit/doc/Makefile.am
-===================================================================
---- libedit.orig/doc/Makefile.am	2014-07-06 19:09:33.267847929 +0200
-+++ libedit/doc/Makefile.am	2014-07-06 19:09:33.263847814 +0200
-@@ -1,5 +1,5 @@
- 
--EL_MANS = editline.3 editrc.5
-+EL_MANS = editline.3edit editrc.5
- 
- man_MANS = $(EL_MANS)
- 
-@@ -12,20 +12,20 @@
- install-data-hook: $(EL_MAN_LINKS)
- 
- $(EL_MAN_LINKS):
--	(cd $(DESTDIR)$(man3dir) && rm -f $@ && $(LN_S) editline.3 $@)
-+	(cd $(DESTDIR)$(man3dir) && rm -f $@ && $(LN_S) editline.3edit $@)
- 
- $(EL_MANS):
- 	@if test "$(MANTYPE)" = "mdoc"; then\
- 	   cp $(srcdir)/$@.roff $@;\
-         else\
- 	   $(AWK) -f $(srcdir)/mdoc2man.awk $(srcdir)/$@.roff > $@ || rm -f $@;\
--	fi; 
-+	fi;
- 
--uninstall-local: 
-+uninstall-local:
- 	(cd $(DESTDIR)$(man3dir) && rm -f $(EL_MAN_LINKS))
- 
- CLEANFILES = $(EL_MANS)
--EXTRA_DIST = editline.3.roff editrc.5.roff mdoc2man.awk
-+EXTRA_DIST = editline.3edit.roff editrc.5.roff mdoc2man.awk
- 
- changelog.txt: ../ChangeLog
- 	@sed 's/@/ (at)/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g;' $(srcdir)/$< > $@;
 Index: libedit/doc/editline.3edit.roff
 ===================================================================
---- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ libedit/doc/editline.3edit.roff	2014-07-06 19:09:33.263847814 +0200
+--- /dev/null
++++ libedit/doc/editline.3edit.roff
 @@ -0,0 +1,913 @@
 +.\"	$NetBSD: editline.3,v 1.80 2013/07/12 17:48:29 christos Exp $
 +.\"

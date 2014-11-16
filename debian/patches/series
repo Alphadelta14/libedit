@@ -5,5 +5,3 @@ update-soname.diff
 libbsd.patch
 PATH_MAX.diff
 conflictmanpages.diff
-
-fix_rl_callback_read_char.diff
