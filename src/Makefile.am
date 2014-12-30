@@ -39,15 +39,12 @@ CLEANFILES = $(BUILT_SOURCES)
 lib_LTLIBRARIES    = libedit.la
 libedit_la_SOURCES = chared.c common.c el.c emacs.c hist.c keymacro.c map.c chartype.c parse.c \
 							prompt.c read.c refresh.c search.c sig.c terminal.c tty.c vi.c \
-							tokenizer.c \
+							fgetln.c wcsdup.c tokenizer.c \
 							history.c filecomplete.c readline.c chared.h el.h hist.h \
 							histedit.h keymacro.h map.h chartype.h parse.h prompt.h read.h refresh.h \
 							search.h sig.h sys.h terminal.h tty.h vis.h filecomplete.h \
 							editline/readline.h
 
-if !HAVE_FGETLN
-libedit_la_SOURCES += fgetln.c
-endif
 if !HAVE_STRLCPY
 libedit_la_SOURCES += strlcpy.c
 endif
@@ -62,9 +59,6 @@ libedit_la_SOURCES += unvis.c
 endif
 if WIDECHAR
 libedit_la_SOURCES += eln.c
-if !HAVE_WCSDUP
-libedit_la_SOURCES += wcsdup.c
-endif
 endif
 
 EXTRA_DIST = makelist shlib_version

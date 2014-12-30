@@ -6,8 +6,7 @@ includedir=@includedir@
 Name: libedit
 Description: command line editor library provides generic line editing, history, and tokenization functions.
 Version: @VERSION@
-Requires.private: @MODULES@
-Libs: -L${libdir} -ledit
-Libs.private: @LIBS@
+Requires:
+Libs: -L${libdir} -ledit @LIBS@
 Cflags: -I${includedir} -I${includedir}/editline
 
