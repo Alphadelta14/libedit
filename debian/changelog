@@ -1,6 +1,8 @@
 libedit (3.1-20141030-1~exp1) experimental; urgency=medium
 
   * New upstream release
+  * Update the symbol file (two new symbols)
+  * Standards-Version updated to 3.9.6
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 14 Nov 2014 11:13:53 +0100
 
