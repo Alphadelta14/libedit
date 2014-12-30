@@ -135,6 +135,7 @@ libedit.so.2 libedit2 #MINVER#
  emacs_ctlx_keymap@Base 2.11-20080614
  emacs_meta_keymap@Base 2.11-20080614
  emacs_standard_keymap@Base 2.11-20080614
+ fgetln@Base 3.1-20141030
  filename_completion_function@Base 2.11-20080614
  fn_complete@Base 2.11-20080614
  fn_display_match_list@Base 2.11-20080614
@@ -396,5 +397,6 @@ libedit.so.2 libedit2 #MINVER#
  vi_yank@Base 3.1-20130611
  vi_yank_end@Base 3.1-20130611
  vi_zero@Base 3.1-20130611
+ wcsdup@Base 3.1-20141030
  where_history@Base 2.11-20080614
  write_history@Base 2.11-20080614
