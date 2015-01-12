@@ -1,3 +1,9 @@
+libedit (3.1-20141030-1~exp2) experimental; urgency=medium
+
+  * Fix a conflict on libedit manpage (Closes: #774972)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 12 Jan 2015 08:58:58 +0100
+
 libedit (3.1-20141030-1~exp1) experimental; urgency=medium
 
   * New upstream release
