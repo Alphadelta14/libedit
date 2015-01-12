@@ -11,7 +11,7 @@ override_dh_auto_configure:
 override_dh_strip:
 	dh_strip --dbg-package=libedit2-dbg
 
-override_dh_installman:
-	cp debian/tmp/usr/share/man/man3/editline.3 debian/tmp/usr/share/man/man3/editline.3edit
-	dh_installman
-
+override_dh_installdeb:
+	dh_installdeb
+	# Workaround for bug #774972
+	mv debian/libedit-dev/usr/share/man/man3/editline.3.gz debian/libedit-dev/usr/share/man/man3/editline.3edit.gz
