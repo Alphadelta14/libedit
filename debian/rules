@@ -19,4 +19,6 @@ override_dh_installdeb:
 
 override_dh_clean:
 	dh_clean
-	mv doc/editline.3edit.roff doc/editline.3.roff
+	if test -f doc/editline.3edit.roff; then \
+		mv doc/editline.3edit.roff doc/editline.3.roff; \
+	fi
