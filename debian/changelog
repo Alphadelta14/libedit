@@ -2,6 +2,8 @@ libedit (3.1-20150325-1) unstable; urgency=medium
 
   * New upstream release
   * Upload to unstable
+  * Update of the symbol file
+    (ct_conv_cbuff_resize & ct_conv_wbuff_resize introduced)
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 28 Apr 2015 09:53:42 +0200
 

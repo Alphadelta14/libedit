@@ -29,7 +29,8 @@ libedit.so.2 libedit2 #MINVER#
  clear_history@Base 2.11-20080614
  completion_matches@Base 2.11-20080614
  ct_chr_class@Base 3.1-20130611
- ct_conv_buff_resize@Base 3.1-20140620
+ ct_conv_cbuff_resize@Base 3.1-20150325
+ ct_conv_wbuff_resize@Base 3.1-20150325
  ct_decode_argv@Base 3.1-20140620
  ct_enc_width@Base 3.1-20140620
  ct_encode_char@Base 3.1-20140620
