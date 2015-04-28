@@ -1,3 +1,10 @@
+libedit (3.1-20150325-1) unstable; urgency=medium
+
+  * New upstream release
+  * Upload to unstable
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 28 Apr 2015 09:53:42 +0200
+
 libedit (3.1-20141030-1~exp2) experimental; urgency=medium
 
   * Fix a conflict on libedit manpage (Closes: #774972)
