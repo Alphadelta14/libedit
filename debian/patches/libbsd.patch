@@ -1,21 +1,19 @@
-Index: libedit/configure.ac
-===================================================================
---- libedit.orig/configure.ac
-+++ libedit/configure.ac
-@@ -61,6 +61,12 @@ AC_CHECK_LIB(tinfo, tgetent,,
+--- a/configure.ac
++++ b/configure.ac
+@@ -61,6 +61,12 @@
    )]
  )
  
 +PKG_CHECK_MODULES(LIBBSD, [libbsd-overlay],
 +  [CFLAGS="$CFLAGS $LIBBSD_CFLAGS"
-+   LDFLAGS="$LDFLAGS $LIBBSD_LIBS"
++   LIBS="$LIBS $LIBBSD_LIBS"
 +   MODULES="$MODULES libbsd"
 +   AC_SUBST([MODULES])]
 +)
  
  ### use option --enable-widec to turn on use of wide-character support
  EL_ENABLE_WIDEC
-@@ -117,24 +123,32 @@ AC_PROG_GCC_TRADITIONAL
+@@ -117,24 +123,32 @@
  #AC_FUNC_REALLOC
  AC_TYPE_SIGNAL
  AC_FUNC_STAT
