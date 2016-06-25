@@ -3,6 +3,7 @@ libedit (3.1-20160618-1) unstable; urgency=medium
   * New upstream release
   * Fix: Libraries must be added to LIBS instead of LDFLAGS
     (Closes: #794009)
+  * Standards-Version updated 3.9.8
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 25 Jun 2016 23:23:46 +0200
 
