@@ -4,12 +4,12 @@ Index: libedit/doc/Makefile.am
 +++ libedit/doc/Makefile.am
 @@ -1,5 +1,5 @@
  
--EL_MANS = editline.3 editrc.5
-+EL_MANS = editline.3edit editrc.5
+-EL_MANS = editline.3 editline.7 editrc.5
++EL_MANS = editline.3edit editline.7 editrc.5
  
  man_MANS = $(EL_MANS)
  
-@@ -12,7 +12,7 @@ EL_MAN_LINKS = el_init.3 el_end.3 el_res
+@@ -52,7 +52,7 @@ EL_MAN_LINKS += \
  install-data-hook: $(EL_MAN_LINKS)
  
  $(EL_MAN_LINKS):

@@ -1,24 +1,13 @@
---- a/configure.ac
-+++ b/configure.ac
-@@ -61,6 +61,12 @@
-   )]
- )
- 
-+PKG_CHECK_MODULES(LIBBSD, [libbsd-overlay],
-+  [CFLAGS="$CFLAGS $LIBBSD_CFLAGS"
-+   LIBS="$LIBS $LIBBSD_LIBS"
-+   MODULES="$MODULES libbsd"
-+   AC_SUBST([MODULES])]
-+)
- 
- ### use option --enable-widec to turn on use of wide-character support
- EL_ENABLE_WIDEC
-@@ -117,24 +123,32 @@
+Index: libedit/configure.ac
+===================================================================
+--- libedit.orig/configure.ac
++++ libedit/configure.ac
+@@ -117,24 +117,38 @@ AC_PROG_GCC_TRADITIONAL
  #AC_FUNC_REALLOC
  AC_TYPE_SIGNAL
  AC_FUNC_STAT
--AC_CHECK_FUNCS([endpwent isascii memchr memset re_comp regcomp strcasecmp strchr strcspn strdup strerror strrchr strstr strtol issetugid wcsdup strlcpy strlcat fgetln vis strvis strunvis __secure_getenv secure_getenv])
-+AC_CHECK_FUNCS([endpwent isascii memchr memset re_comp regcomp strcasecmp strchr strcspn strdup strerror strrchr strstr strtol issetugid __secure_getenv secure_getenv])
+-AC_CHECK_FUNCS([endpwent isascii memchr memset re_comp regcomp strcasecmp strchr strcspn strdup strerror strrchr strstr strtol issetugid wcsdup strlcpy strlcat getline vis strvis strunvis __secure_getenv secure_getenv])
++AC_CHECK_FUNCS([endpwent isascii memchr memset re_comp regcomp strcasecmp strchr strcspn strdup strerror strrchr strstr strtol issetugid getline __secure_getenv secure_getenv])
 +
 +# fgetln
 +AC_CHECK_FUNCS(fgetln, found_fgetln=yes, found_fgetln=no)
@@ -48,6 +37,12 @@
 +AC_CHECK_FUNCS(wcsdup, found_wcsdup=yes, found_wcsdup=no)
 +AM_CONDITIONAL(HAVE_WCSDUP, [test "x$found_wcsdup" = xyes])
 +
++PKG_CHECK_MODULES(LIBBSD, [libbsd-overlay],
++  [CFLAGS="$CFLAGS $LIBBSD_CFLAGS"
++   LIBS="$LIBS $LIBBSD_LIBS"
++   MODULES="$MODULES libbsd"
++   AC_SUBST([MODULES])]
++)
  
  EL_GETPW_R_POSIX
  EL_GETPW_R_DRAFT
