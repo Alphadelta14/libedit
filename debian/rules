@@ -10,7 +10,7 @@ override_dh_auto_configure:
 	mv doc/editline.3.roff doc/editline.3edit.roff
 
 override_dh_strip:
-	dh_strip --dbg-package=libedit2-dbg
+	dh_strip --dbg-package=libedit3-dbg
 
 override_dh_installdeb:
 	dh_installdeb

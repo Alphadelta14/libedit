@@ -7,7 +7,7 @@ Index: libedit/configure.ac
  
  # libtool -version-info
 -AC_SUBST(LT_VERSION, [0:54:0])
-+AC_SUBST(LT_VERSION, [2:54:0])
++AC_SUBST(LT_VERSION, [3:54:0])
  
  m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
  

@@ -1,7 +1,8 @@
 libedit (3.1-20160618-1) unstable; urgency=medium
 
   * New upstream release
-    NOT WORKING YET, SYMBOL ISSUE, DON'T KNOW WHY dh_makeshlibs CANNOT FIND IT
+  * Upstream moved many symbol as private. Because 236 are now missing
+    I am bumping the soname.
   * Fix: Libraries must be added to LIBS instead of LDFLAGS
     (Closes: #794009)
   * Standards-Version updated 3.9.8
