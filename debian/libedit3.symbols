@@ -32,10 +32,10 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# ct_conv_cbuff_resize@Base 3.1-20150325
 #MISSING: 3.1-20160618-1# ct_conv_wbuff_resize@Base 3.1-20150325
 #MISSING: 3.1-20160618-1# ct_decode_argv@Base 3.1-20140620
- ct_decode_string@Base 3.1-20160618-1
+ ct_decode_string@Base 3.1-20160618
 #MISSING: 3.1-20160618-1# ct_enc_width@Base 3.1-20140620
 #MISSING: 3.1-20160618-1# ct_encode_char@Base 3.1-20140620
- ct_encode_string@Base 3.1-20160618-1
+ ct_encode_string@Base 3.1-20160618
 #MISSING: 3.1-20160618-1# ct_visual_char@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# ct_visual_string@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# ct_visual_width@Base 3.1-20130611
@@ -190,8 +190,8 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# keymacro_map_str@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# keymacro_print@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# keymacro_reset@Base 3.1-20130611
- libedit_strlcat@Base 3.1-20160618-1
- libedit_strlcpy@Base 3.1-20160618-1
+ libedit_strlcat@Base 3.1-20160618
+ libedit_strlcpy@Base 3.1-20160618
 #MISSING: 3.1-20160618-1# map_addfunc@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# map_bind@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# map_end@Base 3.1-20130611
@@ -202,7 +202,7 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# map_set_editor@Base 3.1-20130611
  max_input_history@Base 2.11-20080614
  next_history@Base 2.11-20080614
- nvis@Base 3.1-20160618-1
+ nvis@Base 3.1-20160618
 #MISSING: 3.1-20160618-1# parse__escape@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# parse__string@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# parse_cmd@Base 3.1-20130611
@@ -293,7 +293,7 @@ libedit.so.3 libedit3 #MINVER#
  rl_redisplay@Base 2.11-20080614
  rl_redisplay_function@Base 2.11-20080614
  rl_reset_terminal@Base 2.11-20080614
- rl_set_keyboard_input_timeout@Base 3.1-20160618-1
+ rl_set_keyboard_input_timeout@Base 3.1-20160618
  rl_set_keymap@Base 2.11-20080614
  rl_set_prompt@Base 3.1-20130611
  rl_set_screen_size@Base 2.11-20080614
@@ -309,24 +309,24 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# sig_end@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# sig_init@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# sig_set@Base 3.1-20130611
- snvis@Base 3.1-20160618-1
+ snvis@Base 3.1-20160618
  stifle_history@Base 2.11-20080614
- stravis@Base 3.1-20160618-1
- strenvisx@Base 3.1-20160618-1
- strnunvis@Base 3.1-20160618-1
- strnunvisx@Base 3.1-20160618-1
- strnvis@Base 3.1-20160618-1
- strnvisx@Base 3.1-20160618-1
- strsenvisx@Base 3.1-20160618-1
- strsnvis@Base 3.1-20160618-1
- strsnvisx@Base 3.1-20160618-1
- strsvis@Base 3.1-20160618-1
- strsvisx@Base 3.1-20160618-1
- strunvis@Base 3.1-20160618-1
- strunvisx@Base 3.1-20160618-1
- strvis@Base 3.1-20160618-1
- strvisx@Base 3.1-20160618-1
- svis@Base 3.1-20160618-1
+ stravis@Base 3.1-20160618
+ strenvisx@Base 3.1-20160618
+ strnunvis@Base 3.1-20160618
+ strnunvisx@Base 3.1-20160618
+ strnvis@Base 3.1-20160618
+ strnvisx@Base 3.1-20160618
+ strsenvisx@Base 3.1-20160618
+ strsnvis@Base 3.1-20160618
+ strsnvisx@Base 3.1-20160618
+ strsvis@Base 3.1-20160618
+ strsvisx@Base 3.1-20160618
+ strunvis@Base 3.1-20160618
+ strunvisx@Base 3.1-20160618
+ strvis@Base 3.1-20160618
+ strvisx@Base 3.1-20160618
+ svis@Base 3.1-20160618
 #MISSING: 3.1-20160618-1# terminal__flush@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# terminal__putc@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# terminal_beep@Base 3.1-20130611
@@ -372,7 +372,7 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# tty_rawmode@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# tty_stty@Base 3.1-20130611
  unstifle_history@Base 2.11-20080614
- unvis@Base 3.1-20160618-1
+ unvis@Base 3.1-20160618
  username_completion_function@Base 2.11-20080614
  using_history@Base 2.11-20080614
 #MISSING: 3.1-20160618-1# vi_add@Base 3.1-20130611
@@ -422,7 +422,7 @@ libedit.so.3 libedit3 #MINVER#
 #MISSING: 3.1-20160618-1# vi_yank@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# vi_yank_end@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# vi_zero@Base 3.1-20130611
- vis@Base 3.1-20160618-1
+ vis@Base 3.1-20160618
  wcsdup@Base 3.1-20141030
  where_history@Base 2.11-20080614
  write_history@Base 2.11-20080614
