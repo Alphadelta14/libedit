@@ -1,4 +1,4 @@
-libedit.so.3 libedit3 #MINVER#
+libedit.so.2 libedit2 #MINVER#
 #MISSING: 3.1-20160618-1# __ct_decode_string@Base 3.1-20140620
 #MISSING: 3.1-20160618-1# __ct_encode_string@Base 3.1-20140620
  _el_fn_complete@Base 2.11-20080614

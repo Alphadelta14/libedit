@@ -1,8 +1,9 @@
-libedit (3.1-20160618-1) unstable; urgency=medium
+libedit (3.1-20160618-1~exp1) experimental; urgency=medium
 
   * New upstream release
-  * Upstream moved many symbol as private. Because 236 are now missing
-    I am bumping the soname.
+  * Upstream moved many symbols as private. Because 236 are now missing,
+    I am concerned about potential regressions even if upstream
+    didn't bump the soname
   * Fix: Libraries must be added to LIBS instead of LDFLAGS
     (Closes: #794009)
   * Standards-Version updated 3.9.8
