@@ -1,3 +1,12 @@
+libedit (3.1-20160903-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+    Two new symbols:
+      - history_list
+      - history_offset
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 01 Nov 2016 15:53:02 +0100
+
 libedit (3.1-20160618-1~exp1) experimental; urgency=medium
 
   * New upstream release

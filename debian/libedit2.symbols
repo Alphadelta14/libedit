@@ -166,7 +166,9 @@ libedit.so.2 libedit2 #MINVER#
  history_init@Base 2.11-20080614
  history_is_stifled@Base 2.11-20080614
  history_length@Base 2.11-20080614
+ history_list@Base 3.1-20160903
  history_no_expand_chars@Base 2.11-20080614
+ history_offset@Base 3.1-20160903
  history_search@Base 2.11-20080614
  history_search_pos@Base 2.11-20080614
  history_search_prefix@Base 2.11-20080614
