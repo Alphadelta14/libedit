@@ -1,3 +1,9 @@
+libedit (3.1-20160903-3) unstable; urgency=medium
+
+  * Fix the wrong links to the manpage (Closes: #851700)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 18 Jan 2017 13:23:36 +0100
+
 libedit (3.1-20160903-2) unstable; urgency=medium
 
   * Add libncurses5-dev as a dependency of libedit-dev (Closes: #844573)
