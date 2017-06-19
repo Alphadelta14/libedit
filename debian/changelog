@@ -1,3 +1,10 @@
+libedit (3.1-20170329-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version updated 4.0.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 20 Jun 2017 00:11:48 +0200
+
 libedit (3.1-20160903-3) unstable; urgency=medium
 
   * Fix the wrong links to the manpage (Closes: #851700)
