@@ -6,6 +6,8 @@
 	dh $@ --with autoreconf
 
 override_dh_auto_configure:
+	# Remove Apple time machine files
+	rm -f `find . -iname '._*'`
 	dh_auto_configure -- --disable-silent-rules --enable-widec --enable-examples
 	mv doc/editline.3.roff doc/editline.3edit.roff
 
