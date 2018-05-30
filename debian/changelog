@@ -1,6 +1,10 @@
 libedit (3.1-20180525-1) unstable; urgency=medium
 
   * New upstream release
+    - New symbols:
+      append_history
+      rl_did_startup_hook
+      rl_resize_terminal
   * Standards-Version updated 4.1.3
   * Package moved on salsa
 

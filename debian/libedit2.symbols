@@ -6,6 +6,7 @@ libedit.so.2 libedit2 #MINVER#
  _rl_print_completions_horizontally@Base 2.11-20080614
  _rl_qsort_string_compare@Base 2.11-20080614
  add_history@Base 2.11-20080614
+ append_history@Base 3.1-20180525
 #MISSING: 3.1-20160618-1# c__next_word@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# c__prev_word@Base 3.1-20130611
 #MISSING: 3.1-20160618-1# c_delafter1@Base 3.1-20130611
@@ -255,6 +256,7 @@ libedit.so.2 libedit2 #MINVER#
  rl_completion_word_break_hook@Base 3.1-20130611
  rl_deprep_term_function@Base 2.11-20080614
  rl_deprep_terminal@Base 2.11-20080614
+ rl_did_startup_hook@Base 3.1-20180525
  rl_display_match_list@Base 2.11-20080614
  rl_done@Base 2.11-20080614
  rl_end@Base 2.11-20080614
@@ -295,6 +297,7 @@ libedit.so.2 libedit2 #MINVER#
  rl_redisplay@Base 2.11-20080614
  rl_redisplay_function@Base 2.11-20080614
  rl_reset_terminal@Base 2.11-20080614
+ rl_resize_terminal@Base 3.1-20180525
  rl_set_keyboard_input_timeout@Base 3.1-20160618
  rl_set_keymap@Base 2.11-20080614
  rl_set_prompt@Base 3.1-20130611
