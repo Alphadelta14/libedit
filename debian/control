@@ -39,7 +39,7 @@ Description: BSD editline and history libraries (development files)
 
 Package: libedit2-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, libedit2 (= ${binary:Version})
