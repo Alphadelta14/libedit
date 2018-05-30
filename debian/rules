@@ -25,6 +25,14 @@ override_dh_installdeb:
 		rm -f $$f && ln -s editline.3edit.gz $$f.gz; \
 	done
 
+override_dh_installdocs:
+	mkdir -p debian/libedit-dev/usr/share/doc/libedit-dev/examples/
+	cp -R examples/*.c examples/Makefile.* debian/libedit-dev/usr/share/doc/libedit-dev/examples/
+	dh_installdocs
+
+override_dh_compress:
+	dh_compress -X.c -XMakefile.in -XMakefile.am
+
 override_dh_clean:
 	dh_clean
 	if test -f doc/editline.3edit.roff; then \
